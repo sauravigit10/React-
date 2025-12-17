@@ -24,8 +24,7 @@ function Signup() {
   };
   return (
     <>
-    <h1>Sign Up</h1>
-    <form onSubmit={handleSignup} className='signuppage'>
+    <form onSubmit={handleSignup} className='signuppage' style={{border:"1px solid black", marginLeft:"300px"}}>
         <label htmlFor="">Email</label> <br />
         <input onChange={(e)=> setEmail(e.target.value)}value={email} type='email'placeholder='enter your email here' /> <br />
         <label htmlFor="">Password</label> <br />
